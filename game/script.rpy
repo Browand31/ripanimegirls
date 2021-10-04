@@ -4,7 +4,8 @@
 # name of the character.
 
 define c = Character("Chika")
-
+define r = Character("Ryoko")
+define k = Character("Kichi")
 
 # The game starts here.
 
@@ -27,6 +28,10 @@ label start:
     c "You've created a new Ren'Py game."
 
     c "Once you add a story, pictures, and music, you can release it to the world!"
+
+    r "I am speaking to be sure I exist"
+
+    k "Me too!"
 
     # This ends the game.
 
