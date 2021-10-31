@@ -6,7 +6,7 @@
 define c = Character("Chika", color="#ff66ed")
 define r = Character("Ryoko", color="#ff7a14")
 define k = Character("Kichi", color="#9000c9")
-
+define m = Character (_("Main Character"), color="ffffff")
 # The game starts here.
 
 label start:
@@ -25,13 +25,33 @@ label start:
 
     # These display lines of dialogue.
 
+    m "Today is my first day of class"
+
+    show chika neutral
+    with fade
+
     c "You've created a new Ren'Py game."
 
     c "Once you add a story, pictures, and music, you can release it to the world!"
 
+    hide chika 
+    with fade
+
+    show ryoko neutral
+    with fade
+
     r "I am speaking to be sure I exist"
 
+    hide ryoko 
+    with fade
+
+    show kichi neutral
+    with fade
+
     k "Me too!"
+
+    hide kichi 
+    with fade 
 
     # This ends the game.
 

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 6: invalid syntax
-    Character("Chika" color= "#ff66ed")
-                           ^
+File "game/script.rpy", line 30: end of line expected.
+    show Chika-neutral.png
+                      ^
 
 Ren'Py Version: Ren'Py 7.4.3.1414
-Mon Nov  1 08:13:51 2021
+Mon Nov  1 09:11:50 2021
