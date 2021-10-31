@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 6: expected 'word' not found.
-    define
-          ^
-
-File "game/script.rpy", line 7: expected statement.
-    e = Character("Chika")
-      ^
+File "game/script.rpy", line 6: invalid syntax
+    Character("Chika" color= "#ff66ed")
+                           ^
 
 Ren'Py Version: Ren'Py 7.4.3.1414
-Fri Oct  1 22:26:22 2021
+Mon Nov  1 08:13:51 2021
