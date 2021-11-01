@@ -3,10 +3,13 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+
 define c = Character("Chika", color="#ff66ed")
 define r = Character("Ryoko", color="#ff7a14")
 define k = Character("Kichi", color="#9000c9")
 define m = Character (_("Main Character"), color="ffffff")
+define s = Character("Sayuri", color="#b03173")
+define e = Character("Kei", color="#6de5ed")
 # The game starts here.
 
 label start:
@@ -52,6 +55,19 @@ label start:
 
     hide kichi 
     with fade 
+
+    show sayuri neutral 
+    with fade 
+
+    s "I exist as well!"
+
+    hide sayuri
+    with fade
+
+    show kei neutral
+    with fade
+
+    e "And me too!"
 
     # This ends the game.
 
